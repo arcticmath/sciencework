@@ -48,12 +48,12 @@ body {
     padding-bottom: 60px;
     background: url('184105455775865.webp') no-repeat center center fixed; /* Set the image as the background */
     background-size: cover; /* Cover the entire background */
-    color: black; /* Change all non-button text to pitch black */
+    color: brown; /* Change all non-button text to brown */
     overflow: hidden; /* Disable scrolling initially */
 }
 
 h1, h2 {
-    color: black; /* Set headings to pitch black */
+    color: brown; /* Set headings to brown */
 }
 
 .button-container {
@@ -67,7 +67,7 @@ h1, h2 {
 
 button {
     margin: 15px 0;
-    background-color: black; /* Change button background to pitch black */
+    background-color: black; /* Keep button background pitch black */
     color: white; /* Keep text inside buttons white */
     border: 2px solid #555;
     padding: 10px 20px;
@@ -91,7 +91,7 @@ footer {
     padding: 10px;
     text-align: center;
     background-color: #1a1a1a;
-    color: black; /* Change footer text to pitch black */
+    color: brown; /* Change footer text to brown */
 }
 
 /* Remove animated background */

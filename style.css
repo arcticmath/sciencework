@@ -48,19 +48,12 @@ body {
     padding-bottom: 60px;
     background: url('184105455775865.webp') no-repeat center center fixed; /* Set the image as the background */
     background-size: cover; /* Cover the entire background */
-    color: white;
+    color: black; /* Change all non-button text to pitch black */
     overflow: hidden; /* Disable scrolling initially */
 }
 
-h1 {
-    margin: 20px 0;
-    font-size: 1.5em;
-    text-align: center;
-    white-space: nowrap;
-}
-
-h2, button, footer {
-    font-family: 'Arial', sans-serif;
+h1, h2 {
+    color: black; /* Set headings to pitch black */
 }
 
 .button-container {
@@ -74,8 +67,8 @@ h2, button, footer {
 
 button {
     margin: 15px 0;
-    background-color: #333;
-    color: white;
+    background-color: black; /* Change button background to pitch black */
+    color: white; /* Keep text inside buttons white */
     border: 2px solid #555;
     padding: 10px 20px;
     cursor: pointer;
@@ -86,7 +79,7 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: black; /* Keep button background black on hover */
     transform: scale(1.05);
 }
 
@@ -98,7 +91,7 @@ footer {
     padding: 10px;
     text-align: center;
     background-color: #1a1a1a;
-    color: white;
+    color: black; /* Change footer text to pitch black */
 }
 
 /* Remove animated background */

@@ -48,12 +48,20 @@ body {
     padding-bottom: 60px;
     background: url('184105455775865.webp') no-repeat center center fixed; /* Set the image as the background */
     background-size: cover; /* Cover the entire background */
-    color: brown; /* Change all non-button text to brown */
+    color: gray; /* Change all non-button text to gray */
     overflow: hidden; /* Disable scrolling initially */
 }
 
-h1, h2 {
-    color: brown; /* Set headings to brown */
+h1 {
+    margin: 20px 0;
+    font-size: 1.5em; /* Revert title size to original */
+    text-align: center;
+    white-space: nowrap;
+    color: gray; /* Set title to gray */
+}
+
+h2 {
+    color: gray; /* Set headings to gray */
 }
 
 .button-container {
@@ -91,7 +99,7 @@ footer {
     padding: 10px;
     text-align: center;
     background-color: #1a1a1a;
-    color: brown; /* Change footer text to brown */
+    color: gray; /* Change footer text to gray */
 }
 
 /* Remove animated background */
